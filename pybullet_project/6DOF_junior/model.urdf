@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="PS2">
+    <link name="end_effector">
+        <inertial>
+            <origin xyz="0.0263 0.0280 0.0000" rpy="0.0 0.0 0.0" />
+            <mass value="4.1213032688227855" />
+            <inertia ixx="0.002869842955276424" iyy="0.007288193453728553" izz="0.0065724183402899854" ixy="0" iyz="0" ixz="0" />
+        </inertial>
+        <visual name="end_effector_visual">
+            <origin xyz="0.0000 0.0000 0.0000" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/end_effector.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+            <material name="orange">
+                <color rgba="0.97 0.53 0 1"/>
+            </material>
+        </visual>
+        <collision name="end_effector_collision">
+            <origin xyz="0.0000 0.0000 0.0000" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/end_effector.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="palm">
+        <inertial>
+            <origin xyz="0.0000 -0.0215 -0.0416" rpy="0.0 0.0 0.0" />
+            <mass value="3.769682308005914" />
+            <inertia ixx="0.005826073140490875" iyy="0.0061892408159909245" izz="0.002638882376844731" ixy="0" iyz="0" ixz="0" />
+        </inertial>
+        <visual name="palm_visual">
+            <origin xyz="0.0000 0.0000 0.0000" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/palm.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+            <material name="black">
+                <color rgba="0.27 0.28 0.28 1"/>
+            </material>
+        </visual>
+        <collision name="palm_collision">
+            <origin xyz="0.0000 0.0000 0.0000" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/palm.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="wrist">
+        <inertial>
+            <origin xyz="0.0000 -0.0533 -0.0194" rpy="0.0 0.0 0.0" />
+            <mass value="4.216914635753867" />
+            <inertia ixx="0.00933698839258024" iyy="0.004389920699302219" izz="0.009032375068409038" ixy="0" iyz="-0.0019503905002748552" ixz="0" />
+        </inertial>
+        <visual name="wrist_visual">
+            <origin xyz="0.0000 0.0000 0.0000" rpy="1.570796 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/wrist.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+            <material name="orange">
+                <color rgba="0.97 0.53 0 1"/>
+            </material>
+        </visual>
+        <collision name="wrist_collision">
+            <origin xyz="0.0000 0.0000 0.0000" rpy="1.570796 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/wrist.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="forearm">
+        <inertial>
+            <origin xyz="0.0619 -0.0400 -0.0723" rpy="0.0 0.0 0.0" />
+            <mass value="15.085694501784571" />
+            <inertia ixx="0.10923198841575421" iyy="0.12496690875477467" izz="0.029316248246891163" ixy="0" iyz="0" ixz="0.021372549280382236" />
+        </inertial>
+        <visual name="forearm_visual">
+            <origin xyz="0.0000 0.0000 0.0000" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/forearm.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+            <material name="black">
+                <color rgba="0.27 0.28 0.28 1"/>
+            </material>
+        </visual>
+        <collision name="forearm_collision">
+            <origin xyz="0.0000 0.0000 0.0000" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/forearm.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="upper_arm">
+        <inertial>
+            <origin xyz="0.1500 0 0.0240" rpy="0.0 0.0 0.0" />
+            <mass value="10.937203378996566" />
+            <inertia ixx="0.007680584400375889" iyy="0.12294270042778543" izz="0.12642339873062647" ixy="0" iyz="0" ixz="0" />
+        </inertial>
+        <visual name="upper_arm_visual">
+            <origin xyz="0.0000 0.0000 0.0000" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/upper_arm.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+            <material name="orange">
+                <color rgba="0.97 0.53 0 1"/>
+            </material>
+        </visual>
+        <collision name="upper_arm_collision">
+            <origin xyz="0.0000 0.0000 0.0000" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/upper_arm.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="shoulder">
+        <inertial>
+            <origin xyz="0.0131 0.0000 0.0811" rpy="0.0 0.0 0.0" />
+            <mass value="18.72591722733713" />
+            <inertia ixx="0.08233275793126849" iyy="0.09166601183757372" izz="0.04706002488913857" ixy="0" iyz="0" ixz="-0.01830818606448982" />
+        </inertial>
+        <visual name="shoulder_visual">
+            <origin xyz="0.0000 0.0000 0.0000" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/shoulder.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+            <material name="black">
+                <color rgba="0.27 0.28 0.28 1"/>
+            </material>
+        </visual>
+        <collision name="shoulder_collision">
+            <origin xyz="0.0000 0.0000 0.0000" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/shoulder.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="base_link">
+        <inertial>
+            <origin xyz="0.0000 0.0000 0.0474" rpy="0.0 0.0 0.0" />
+            <mass value="66.64314917240618" />
+            <inertia ixx="0.5252296073402226" iyy="0.525229607340243" izz="0.9508489214035446" ixy="7.310882210731554e-16" iyz="1.5312871255446406e-15" ixz="7.982569513842511e-16" />
+        </inertial>
+        <visual name="base_link_visual">
+            <origin xyz="0.0000 0.0000 0.0000" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/base_link.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+            <material name="orange">
+                <color rgba="0.97 0.53 0 1"/>
+            </material>
+        </visual>
+        <collision name="base_link_collision">
+            <origin xyz="0.0000 0.0000 0.0000" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/base_link.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="base_link_Revolute-1" type="revolute">
+        <origin xyz="0.0000 0.0000 0.2710" rpy="0.0 0.0 0.0" />
+        <parent link="base_link" />
+        <child link="shoulder" />
+        <axis xyz="0 0 1" />
+        <limit lower="-3.141593" upper="3.141593" effort="1000000" velocity="0.1" />
+    </joint>
+    <joint name="shoulder_Revolute-2" type="revolute">
+        <origin xyz="0.0504 0.0000 0.0000" rpy="-1.570796 0.0 0.0" />
+        <parent link="shoulder" />
+        <child link="upper_arm" />
+        <axis xyz="0 0 1"/>
+        <limit lower="-3.141593" upper="0.349066" effort="1000000" velocity="0.1" />
+    </joint>
+    <joint name="upper_arm_Revolute-3" type="revolute">
+        <origin xyz="0.3000 0.0000 0.0000" rpy="0.0 0.0 0.0" />
+        <parent link="upper_arm" />
+        <child link="forearm" />
+        <axis xyz="0 0 1" />
+        <limit lower="-1.570796" upper="1.570796" effort="1000000" velocity="0.1" />
+    </joint>
+    <joint name="forearm_Revolute-4" type="revolute">
+        <origin xyz="0.0815 0.3500 0.0000" rpy="-1.570796 0.0 0.0" />
+        <parent link="forearm" />
+        <child link="wrist" />
+        <axis xyz="0 0 1" />
+        <limit lower="-3.141593" upper="3.141593" effort="1000000" velocity="0.1" />
+    </joint>
+    <joint name="wrist_Revolute-5" type="revolute">
+        <origin xyz="0.0000 0.0000 0.0000" rpy="1.570796 0.0 0.0" />
+        <parent link="wrist" />
+        <child link="palm" />
+        <axis xyz="0 0 1" />
+        <limit lower="-1.570796" upper="1.570796" effort="1000000" velocity="0.1" />
+    </joint>
+    <joint name="palm_Revolute-6" type="revolute">
+        <origin xyz="0.0000 0.150 0.0000" rpy="-1.570796 0.0 0.0" />
+        <parent link="palm" />
+        <child link="end_effector" />
+        <axis xyz="0 0 1" />
+        <limit lower="-3.141593" upper="3.141593" effort="1000000" velocity="0.5" />
+    </joint>
+</robot>
