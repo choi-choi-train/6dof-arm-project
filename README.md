@@ -1,5 +1,5 @@
 # 6DOF Robotic Arm 🦾
-![V2 Screenshot]('./cad_v2/cycloid-capstan_transmission.png')
+![V2 Screenshot]('/cad_v2/cycloid-capstan_transmission.png')
 
 *Welcome! 👋 This is a personal robotics project that I have been working on since spring of 2025. I began this project with zero knowledge of CAD, electrical engineering, microcontrollers, or even what an M3 screw was. In my desire to develop these skills I've been working consistently on a 6DOF desktop robotic arm. Version 1 was done purely theoretically with no actual printing or manufacturing, and Version 2 is currently being worked on with my newfound knowledge in 3D printing and robotics design. Enjoy!*
 
