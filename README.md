@@ -1,11 +1,13 @@
 # 6DOF Robotic Arm 🦾
 🔥**OBJECTIVES**🔥
+
 1) Develop CAD skills and intuition in designing parts suitable for machining and 3D printing
 2) Build a human-scale arm that can lift at least 1kg from its end-effector
 3) Learn basic inverse kinematics and apply to a simulated 3D environment
 4) Print/machine designs, build and program electronics for design, integrate magnetic encoder feedback
 
 🔥**OUTCOMES**🔥
+
 ✏️ [ONSHAPE] CAD design of 6DOF arm (Version 2 in progress)
    - NEMA17 Stepper Motor driven
    - Humanoid dimensions
