@@ -24,6 +24,3 @@
 5) MEDIA:
    - V1 Arm CAD Showcase: https://drive.google.com/file/d/17bpIJcrS7KBjyCcSQjnxdCV7GBqHDyYh/view?usp=sharing
    - V1 Arm PyBullet Model Showcase: https://drive.google.com/file/d/1LGYSVCzqaMIUf3A3PrS6AKm3KjFHaaDS/view?usp=sharing
-   - V2 Arm CAD Images (WIP): 
-	 - V2 Arm Cycloidal Gearbox Testbed Showcase: 
-   - V2 Arm Capstan Drive Shoulder Joint Showcase: 
