@@ -21,6 +21,8 @@
    - Cubic-bezier acceleration/deceleration profile
    - Rotation by a certain angle, scaling speed & acceleration profiles to match
    
-5) MEDIA:
+5) VIDEOS:
    - V1 Arm CAD Showcase: https://drive.google.com/file/d/17bpIJcrS7KBjyCcSQjnxdCV7GBqHDyYh/view?usp=sharing
    - V1 Arm PyBullet Model Showcase: https://drive.google.com/file/d/1LGYSVCzqaMIUf3A3PrS6AKm3KjFHaaDS/view?usp=sharing
+   - V2 Arm Cycloidal Gearbox Testbed Operation: https://drive.google.com/file/d/1Z99XrYdSyfT1g2gOHz0_v86vHNOj1S-u/view?usp=sharing
+   - V2 Arm Cycloidal Gearbox -> Capstan Drive Shoulder Joint Operation: https://drive.google.com/file/d/1UcA1aLKyCWc_PHmPhC-W2EXKkLFnNGdU/view?usp=sharing
