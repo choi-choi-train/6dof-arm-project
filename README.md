@@ -8,6 +8,7 @@
 2) Build a human-scale arm that can lift at least 1kg from its end-effector
 3) Learn basic inverse kinematics and apply to a simulated 3D environment
 4) Print/machine designs, build and program electronics for design, integrate magnetic encoder feedback
+5) Integrate intuitive control system using robot vision to enable working in a maker space (with matching end-effector)
 
 🔥**OUTCOMES**🔥
 
